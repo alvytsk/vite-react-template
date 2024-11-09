@@ -1,7 +1,12 @@
 import './App.css';
+import Counter from './Counter';
 
 function App() {
-  return <>Hello world!</>;
+  return (
+    <>
+      <Counter initialValue={10} />
+    </>
+  );
 }
 
 export default App;
